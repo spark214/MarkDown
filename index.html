@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>MarkDown编辑器</title>
+    <link type="text/css" href="index.css" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="marked.js"></script>
+    <script src="ace.js"></script>
+    <link href="markdown.css" rel="stylesheet" />
 </head>
 <body>
-
+<div id="toolbar"></div>
+<div id="container">
+    <div id="editor-column" class="left">
+        <div id="panel-editor"></div>
+    </div>
+    <div id="preview-column" class="right">
+        <div id="panel-preview"></div>
+    </div>
+</div>
 </body>
 </html>
