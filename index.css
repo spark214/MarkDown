@@ -36,3 +36,7 @@ html, body {
 .right{
     float: right;
 }
+#mdeditor,#preview,#panel-editor,#panel-preview{
+    height: 100%;
+    width: 100%;
+}

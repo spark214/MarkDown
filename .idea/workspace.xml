@@ -1,14 +1,369 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c21d5ac-5d37-487b-b2e7-b72bef1d2ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/github-markdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/marked.js" />
+    <list default="true" id="6c21d5ac-5d37-487b-b2e7-b72bef1d2ff5" name="Default" comment="basic">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-beautify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-chromevox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-elastic_tabstops_lite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-emmet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-error_marker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-keybinding_menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-language_tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-linking.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-modelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-old_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-searchbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-settings_menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-spellcheck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-split.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-static_highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-statusbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-textarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-themelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/ext-whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/keybinding-emacs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/keybinding-vim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-abap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-abc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-actionscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-ada.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-apache_conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-applescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-asciidoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-assembly_x86.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-autohotkey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-batchfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-bro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-c9search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-c_cpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-cirru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-clojure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-cobol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-coffee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-coldfusion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-csharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-curly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-django.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-dockerfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-dot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-drools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-eiffel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-elixir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-elm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-forth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-fortran.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-ftl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-gcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-gherkin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-gitignore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-glsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-gobstones.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-golang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-graphqlschema.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-groovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-haml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-handlebars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-haskell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-haskell_cabal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-haxe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-hjson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-html_elixir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-html_ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-ini.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-jack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-jade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-java.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-jsoniq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-jsp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-jsx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-julia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-kotlin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-latex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-lean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-less.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-liquid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-live_script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-livescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-logiql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-lsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-luapage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-lucene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-makefile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-mask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-matlab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-maze.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-mel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-mips_assembler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-mipsassembler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-mushcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-mysql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-nix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-nsis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-objectivec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-ocaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-perl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-pgsql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-php.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-pig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-plain_text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-powershell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-praat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-prolog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-properties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-protobuf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-python.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-razor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-rdoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-rhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-rst.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-rust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-sass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-scad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-scala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-scheme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-scss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-sh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-sjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-smarty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-snippets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-soy_template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-space.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-sparql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-sqlserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-stylus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-swift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-swig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-tex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-textile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-toml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-tsx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-turtle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-twig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-typescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-vala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-vbscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-velocity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-verilog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-vhdl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-wollok.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-xquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/mode-yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/abap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/abc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/actionscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/ada.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/apache_conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/applescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/asciidoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/assembly_x86.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/autohotkey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/batchfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/bro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/c9search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/c_cpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/cirru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/clojure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/cobol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/coffee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/coldfusion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/csharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/curly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/django.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/dockerfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/dot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/drools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/eiffel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/elixir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/elm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/forth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/fortran.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/ftl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/gcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/gherkin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/gitignore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/glsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/gobstones.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/golang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/graphqlschema.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/groovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/haml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/handlebars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/haskell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/haskell_cabal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/haxe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/hjson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/html_elixir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/html_ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/ini.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/jack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/jade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/java.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/jsoniq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/jsp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/jsx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/julia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/kotlin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/latex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/lean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/less.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/liquid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/live_script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/livescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/logiql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/lsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/luapage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/lucene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/makefile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/mask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/matlab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/maze.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/mel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/mips_assembler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/mipsassembler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/mushcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/mysql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/nix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/nsis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/objectivec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/ocaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/perl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/pgsql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/php.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/pig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/plain_text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/powershell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/praat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/prolog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/properties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/protobuf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/python.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/razor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/rdoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/rhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/rst.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/rust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/sass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/scad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/scala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/scheme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/scss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/sh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/sjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/smarty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/snippets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/soy_template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/space.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/sparql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/sqlserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/stylus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/swift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/swig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/tex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/textile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/toml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/tsx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/turtle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/twig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/typescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/vala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/vbscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/velocity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/verilog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/vhdl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/wollok.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/xquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/snippets/yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-ambiance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-chaos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-chrome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-clouds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-clouds_midnight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-cobalt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-crimson_editor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-dawn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-dreamweaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-eclipse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-github.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-gob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-gruvbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-idle_fingers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-iplastic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-katzenmilch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-kr_theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-kuroir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-merbivore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-merbivore_soft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-mono_industrial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-monokai.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-pastel_on_dark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-solarized_dark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-solarized_light.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-sqlserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-terminal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-textmate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-tomorrow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-tomorrow_night.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-tomorrow_night_blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-tomorrow_night_bright.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-tomorrow_night_eighties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-twilight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-vibrant_ink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/theme-xcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-coffee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-php.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../markdown/ace/worker-xquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../markdown/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../markdown/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../markdown/index.css" afterPath="$PROJECT_DIR$/../markdown/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../markdown/index.html" afterPath="$PROJECT_DIR$/../markdown/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../markdown/ace.js" afterPath="$PROJECT_DIR$/../markdown/ace/ace.js" />
     </list>
     <ignored path="$PROJECT_DIR$/../markdown/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +375,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../markdown/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="756">
+              <caret line="124" column="34" lean-forward="true" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -34,8 +389,8 @@
       <file leaf-file-name="github-markdown.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../markdown/github-markdown.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="2484">
+              <caret line="92" column="23" lean-forward="false" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -44,8 +399,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../markdown/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="675">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -60,6 +415,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>edit</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../markdown" />
   </component>
@@ -71,6 +431,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../markdown/README.md" />
+        <option value="$PROJECT_DIR$/../markdown/ace.js" />
         <option value="$PROJECT_DIR$/../markdown/index.css" />
         <option value="$PROJECT_DIR$/../markdown/index.html" />
       </list>
@@ -88,7 +450,9 @@
     <option name="width" value="1942" />
     <option name="height" value="1102" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -105,6 +469,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -119,7 +484,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -127,6 +491,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html/Final Big/my-Meizu-website/shop.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -383,6 +748,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -511,6 +877,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -537,12 +909,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501512901110</updated>
-      <workItem from="1501512902656" duration="5087000" />
+      <workItem from="1501512902656" duration="23759000" />
+      <workItem from="1501770468205" duration="114000" />
     </task>
+    <task id="LOCAL-00001" summary="basic">
+      <created>1501677054900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501677054900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5087000" />
+    <option name="totallyTimeSpent" value="23873000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -557,35 +938,35 @@
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15572916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +976,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -606,18 +988,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../markdown/index.css">
+    <entry file="file://$PROJECT_DIR$/../markdown/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../markdown/ace.js">
+    <entry file="file://$PROJECT_DIR$/../markdown/github-markdown.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2484">
+          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../markdown/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -630,14 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../markdown/github-markdown.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../markdown/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -646,10 +1028,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../markdown/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../markdown/ace.js" />
+    <entry file="file://$PROJECT_DIR$/../markdown/github-markdown.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="92" column="23" lean-forward="false" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../markdown/ace/ace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4617">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html/Final Big/my-Meizu-website/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="267" column="5" lean-forward="false" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../markdown/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$6/scrollable-page.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$5/demo.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$4/kitchen-sink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="275" column="49" lean-forward="true" selection-start-line="275" selection-start-column="49" selection-end-line="275" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../markdown/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="756">
+          <caret line="124" column="34" lean-forward="true" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
           <folding />
         </state>
       </provider>
